@@ -10,7 +10,7 @@ DEEPINFRA_TOKEN = 'TOKEN'
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 def generate_image(prompt):
-    url = "https://api.deepinfra.com/v1/inference/stabilityai/stable-diffusion-2-1"
+    url = "https://api.deepinfra.com/v1/inference/stabilityai/sdxl-turbo"
     headers = {
         "Authorization": f"Bearer {DEEPINFRA_TOKEN}",
         "Content-Type": "application/json"
